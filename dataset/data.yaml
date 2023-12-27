@@ -1,0 +1,10 @@
+# dataset path
+train: ./images/train
+val: ./images/val
+test: ./images/test
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Brain Tumor']
