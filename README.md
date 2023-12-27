@@ -3,6 +3,9 @@ This is the source code for the paper, "EMDA-YOLO: An Improved YOLOv8 Model for 
 ## Training
 
 ```
+python train.py --yaml yolov8.yaml --data /dataset/data.yaml --workers 8 --batch 16 --epoch 200
+```
+```
 python train.py --yaml EMDA-YOLO.yaml --data /dataset/data.yaml --workers 8 --batch 16 --epoch 200
 ```
 
